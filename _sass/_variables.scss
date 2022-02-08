@@ -1,0 +1,25 @@
+/* variables : colors and font sizes */
+
+:root {
+  --clr-white: #fff;
+  --clr-light: #f9f9f9; /* light grey, almost white */
+  --clr-dark: #4f4f51; /* dark grey */
+  --clr-green: #62bb46;
+
+  --background: var(--clr-light);
+  --foreground: var(--clr-dark);
+  --accent: var(--clr-green);
+
+  --font-size-heading: 1.1rem;
+  --font-size-subheading: 0.9rem;
+  --font-size-text: 0.8rem;
+}
+
+@media (min-width: 600px) {
+  :root {
+    --font-size-heading: 1.25rem;
+    --font-size-subheading: 1.1rem;
+    --font-size-text: 1rem;
+  }
+}
+

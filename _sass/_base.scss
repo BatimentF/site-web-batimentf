@@ -1,0 +1,28 @@
+* {
+  color: var(--foreground);
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Page background styling */
+
+h1 {
+  font-size: var(--font-size-heading);
+}
+
+h2, h3 {
+  font-size: var(--font-size-subheading);
+}
+
+p {
+  font-size: var(--font-size-text);
+}
+
+body {
+  background: linear-gradient(90deg, var(--background) 21px, transparent 1%) center, linear-gradient(var(--background) 21px, transparent 1%) center, var(--foreground);
+  background-size: 22px 22px;
+}
+
+footer {
+  min-height: 2em;
+}
+

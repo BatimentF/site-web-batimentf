@@ -18,15 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Bâtiment
-email: courriel@example.com
+title: BatimentF
+email: info@batimentf.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Site web de Bâtiment
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-
-# Build settings
-theme: minima
+  Site web de BâtimentF
+url: "https://www.batimentf.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -47,3 +43,18 @@ theme: minima
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# File management
+exclude: ["README.md", "LICENSE"]
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
+# Sass
+sass:
+  style: :compressed
+  sass_dir: _sass
+
