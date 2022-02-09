@@ -1,6 +1,6 @@
 ---
 layout: default
-text: 'Nous contacter:'
+text: 'Nous joindre'
 street: 610-41 Simon-Lussier
 city: Blainville
 province: Qc
