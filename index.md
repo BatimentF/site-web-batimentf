@@ -5,7 +5,7 @@ street: 610-41 Simon-Lussier
 city: Blainville
 province: Qc
 postalcode: J7C 0R2
-telephone: 514-220-4960
+telephone: 514-830-9883
 email1: info@batimentf.com
 email2: soumission@batimentf.com
 ---
